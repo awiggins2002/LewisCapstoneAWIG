@@ -1,6 +1,7 @@
-
+import api from './api/axiosConfig';
 import './App.css';
 import React, { useState } from 'react';
+import {useState, useEffect} from 'react';
 
 function App() {
 
